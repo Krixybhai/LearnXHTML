@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta name="google-site-verification: google5ccd7d3db10ca5c8.html">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Introduction to HTML</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom right, #0D1B2A, #00FFFF);
+      margin: 0;
+      padding: 0;
+      color: white;
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    nav {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    section {
+      background: rgba(255, 255, 255, 0.1);
+      margin-bottom: 20px;
+      padding: 15px;
+      border-radius: 8px;
+    }
+
+    h2 {
+      color: #00FFFF;
+    }
+
+    pre {
+      background-color: #001f3f;
+      padding: 10px;
+      overflow-x: auto;
+      color: #00FFAA;
+      border-radius: 5px;
+    }
+
+    img {
+      width: 120px;
+      display: block;
+      margin: 10px auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    table, th, td {
+      border: 1px solid #00FFFF;
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: rgba(0, 0, 0, 0.7);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Introduction to HTML</h1>
+    <p>Learn the basics of web development</p>
+  </header>
+
+  <nav>
+    <a href="#what">What is HTML?</a>
+    <a href="#tags">Basic Tags</a>
+    <a href="#example">Code Example</a>
+    <a href="#table">HTML Table</a>
+  </nav>
+
+  <div class="container">
+    <section id="what">
+      <h2>What is HTML?</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML Logo">
+      <p>HTML stands for <strong>HyperText Markup Language</strong>. It is the standard language used to create and design web pages. HTML describes the structure of a webpage using tags and elements.</p>
+    </section>
+
+    <section id="tags">
+      <h2>Basic HTML Tags</h2>
+      <ul>
+        <li><code>&lt;h1&gt; to &lt;h6&gt;</code> – Headings</li>
+        <li><code>&lt;p&gt;</code> – Paragraph</li>
+        <li><code>&lt;a&gt;</code> – Link</li>
+        <li><code>&lt;img&gt;</code> – Image</li>
+        <li><code>&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;</code> – Lists</li>
+      </ul>
+    </section>
+
+    <section id="example">
+      <h2>Example HTML Code</h2>
+      <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;My First Webpage&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello, World!&lt;/h1&gt;
+    &lt;p&gt;This is my first webpage using HTML.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+      </pre>
+    </section>
+
+    <section id="table">
+      <h2>Common HTML Tags Table</h2>
+      <table>
+        <tr>
+          <th>Tag</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>&lt;h1&gt;</td>
+          <td>Main Heading</td>
+        </tr>
+        <tr>
+          <td>&lt;p&gt;</td>
+          <td>Paragraph</td>
+        </tr>
+        <tr>
+          <td>&lt;a&gt;</td>
+          <td>Hyperlink</td>
+        </tr>
+        <tr>
+          <td>&lt;img&gt;</td>
+          <td>Image</td>
+        </tr>
+        <tr>
+          <td>&lt;table&gt;</td>
+          <td>Table Structure</td>
+        </tr>
+      </table>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Learn Coding with us</p>
+  </footer>
+
+</body>
+</html>
